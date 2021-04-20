@@ -12,8 +12,8 @@ while chance<=5 :
         print("Your guess was too high: guess a lower number than: ",g1) 
     else:
         print("Your guess was too low: guess a higher number than: ",g1)
-chance+=1
-while chance>=5 :
+    chance+=1
+if chance>=5 :
     print("You lost the Game. The number was: ",number)
 
 
